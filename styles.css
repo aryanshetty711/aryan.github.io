@@ -10,7 +10,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     padding: 60px;
-    max-width: 800px;
+    max-width: 1200px;  /* Increase the max-width */
     margin: 0 auto;
     background-color: #ffffff;
     color: #000;
@@ -70,14 +70,14 @@ p {
     font-size: 18px;
 }
 
-/* Styles specific to gallery.html */
+/* Updated Styles specific to gallery.html */
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Increase the min-width */
     gap: 16px;
     margin: 32px;
-    width: 90%; /* Increase width */
+    width: 100%; /* Full-width */
     margin-left: auto;
     margin-right: auto;
 }
@@ -115,3 +115,4 @@ p {
 .gallery-item:hover .description {
     opacity: 1;
 }
+
