@@ -74,9 +74,12 @@ p {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
     gap: 16px;
     margin: 32px;
+    width: 90%; /* Increase width */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gallery-item {
@@ -112,4 +115,3 @@ p {
 .gallery-item:hover .description {
     opacity: 1;
 }
-
