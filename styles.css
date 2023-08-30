@@ -1,5 +1,3 @@
-/* Styles for both index.html and gallery.html */
-
 /* Basic CSS Reset */
 * {
     margin: 0;
@@ -114,5 +112,24 @@ p {
 
 .gallery-item:hover .description {
     opacity: 1;
+}
+
+/* Add these new styles */
+
+.gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.gallery-byline {
+    flex: 1;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    flex: 2;  /* Adjust as needed */
 }
 
