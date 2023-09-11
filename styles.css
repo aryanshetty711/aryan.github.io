@@ -23,7 +23,7 @@ h1 {
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 28px;
-    background-color: brown;  /* Making the entire horizontal bar brown */
+    background-color: #664229;  /* Making the entire horizontal bar brown */
     color: #ffffff; /* Making the text color white to be visible on the brown background */
     text-align: center; /* Center the name */
 }
