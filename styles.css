@@ -16,13 +16,18 @@ body {
 }
 
 h1 {
-    color: #000;
+    color: brown;
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
+    padding-top: 10px;  /* Adding padding to top to give the bar some height */
+    margin-bottom: 30px;
     font-weight: 700;
     font-size: 28px;
-    margin-bottom: 30px;
+    background-color: brown;  /* Making the entire horizontal bar brown */
+    color: #ffffff; /* Making the text color white to be visible on the brown background */
+    text-align: center; /* Center the name */
 }
+
 
 a {
     color: #000;
