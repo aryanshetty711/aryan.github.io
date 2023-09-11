@@ -19,7 +19,7 @@ h1 {
     color: brown;
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
-    padding-top: 10px;  /* Adding padding to top to give the bar some height */
+    padding-top: 0px;  /* Adding padding to top to give the bar some height */
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 28px;
